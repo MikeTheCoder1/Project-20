@@ -21,7 +21,7 @@ car.shapeColor=color(255);
 }
 
 function draw() {
-  background("black");  
+  background(0);  
   
   if (wall.x-car.x < (car.width+wall.width)/2){
     car.velocityX=0;
